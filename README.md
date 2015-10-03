@@ -3,5 +3,5 @@ Pebble For Calculus
 
 **Best Calculus App for android devices**
                                       
- ![alt tag](http://s17.postimg.org/f0o4ahlsv/UUv_Yo_Mt_P.jpg:large)
+ ![alt tag](http://s28.postimg.org/7v09ypwjx/pebble1.jpg)
 
