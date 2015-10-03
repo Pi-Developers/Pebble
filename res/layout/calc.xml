@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="Introduction"
+			android:textStyle="bold"
+			android:textColor="#000000"
+			android:layout_margin="7dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Calculus is the mathematical study of change, in the same way that geometry is the study of shape and algebra is the study of operations and their application to solving equations.\n\nIt has two major branches, differential calculus and integral calculus, these two branches are related to each other by the fundamental theorem of calculus.\n\nBoth branches make use of the fundamental notions of convergence of infinite sequences and infinite series to a well-defined limit.\n\nGenerally, modern calculus is considered to have been developed in the 17th century by Isaac Newton and Gottfried Leibniz .\n\nToday, calculus has widespread uses in science , engineering and economics and can solve many problems that algebra alone cannot."
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:textColor="#000000"
+			android:layout_marginTop="0dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="Applications"
+			android:textColor="#000000"
+			android:textStyle="bold"
+			android:layout_margin="7dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Calculus is used in every branch of the physical sciences, actuarial science, computer science, statistics, engineering, economics, business, medicine, demography, and in other fields wherever a problem can bemathematically modeled and an optimal solution is desired.\n\nIt allows one to go from rates of change to the total change or vice versa, and many times in studying a problem we know one and are trying to find the other.\n\nMany great achievements in physics like mechanics and general relativity are the results of calculus."
+			android:textColor="#000000"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"/>
+
+	</LinearLayout>
+
+</ScrollView>
+
+

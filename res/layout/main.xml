@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/calculus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:background="#ff5722"
+        android:text="What&apos;s Calculus ?"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/diff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:background="#7CB342"
+        android:text="What&apos;s Diffrentiation ?"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/dodiff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:background="#673AB7"
+        android:text="Diffrentiate"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/inte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:background="#26A69A"
+        android:text="What&apos;s Integration ?"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/doint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:background="#C2185B"
+        android:text="Integrate"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:background="#eeeeee">
+
+	<Button
+		android:id="@+id/instruction"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Tap For Instructions"
+		android:textColor="#C2185B"
+		android:background="#eeeeee"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Primary Equation :"
+		android:layout_margin="10dp"
+		android:textColor="#C2185B"/>
+
+	<EditText
+		android:id="@+id/prim"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:hint="Insert F'(x)"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Result Equation :"
+		android:layout_margin="10dp"
+		android:textColor="#C2185B"/>
+
+	<EditText
+		android:id="@+id/result"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:hint="Here you get ∫ F'(x)"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_marginBottom="-5dp"
+		android:layout_weight="0.5"
+		android:layout_marginTop="5dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp">
+
+		<Button
+			android:id="@+id/plus"
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:text="+"
+			android:background="#EEEEEE"
+			android:layout_weight="0.5"
+			android:textColor="#C2185B"/>
+
+		<Button
+			android:id="@+id/minus"
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:text="–"
+			android:background="#EEEEEE"
+			android:layout_weight="0.5"
+			android:layout_marginBottom="0dp"
+			android:textColor="#C2185B"/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:text="e^"
+			android:background="#EEEEEE"
+			android:layout_weight="0.5"
+			android:id="@+id/epower"
+			android:textColor="#C2185B"/>
+
+		<Button
+			android:id="@+id/power"
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:text="X^"
+			android:background="#EEEEEE"
+			android:layout_weight="0.5"
+			android:textColor="#C2185B"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_marginRight="10dp"
+		android:layout_marginLeft="10dp"
+		android:layout_weight="0.5"
+		android:layout_marginTop="5dp">
+
+		<Button
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:text="ln(x)"
+			android:background="#EEEEEE"
+			android:layout_weight="0.5"
+			android:id="@+id/ln"
+			android:textColor="#C2185B"/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:text="Sin"
+			android:layout_weight="0.5"
+			android:id="@+id/sin"
+			android:background="#EEEEEE"
+			android:layout_marginLeft="0dp"
+			android:textColor="#C2185B"/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:text="Cosine"
+			android:background="#EEEEEE"
+			android:layout_weight="0.5"
+			android:id="@+id/cos"
+			android:textColor="#C2185B"/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:text="sec"
+			android:background="#EEEEEE"
+			android:layout_weight="0.5"
+			android:id="@+id/tan"
+			android:textColor="#C2185B"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_marginBottom="-5dp"
+		android:layout_marginTop="0dp"
+		android:layout_weight="0.5"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp">
+
+		<Button
+			android:id="@+id/cut"
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:text="Cut"
+			android:background="#EEEEEE"
+			android:layout_weight="0.5"
+			android:textColor="#C2185B"/>
+		<Button
+			android:id="@+id/copy"
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:text="Copy"
+			android:background="#EEEEEE"
+			android:layout_weight="0.5"
+			android:textColor="#C2185B"/>
+
+
+
+
+		<Button
+			android:id="@+id/paste"
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:text="Paste"
+			android:background="#EEEEEE"
+			android:layout_weight="0.5"
+			android:textColor="#C2185B"/>
+
+	</LinearLayout>
+
+	<Button
+		android:id="@+id/integrate"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Integrate Equation "
+		android:background="#EEEEEE"
+		
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_weight="0.5"
+		android:textColor="#C2185B"/>
+
+	<Button
+		android:id="@+id/clear"
+		android:background="#EEEEEE"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Clear All"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_weight="0.5"
+		android:layout_marginBottom="10dp"
+		android:textColor="#C2185B"/>
+
+</LinearLayout>
+

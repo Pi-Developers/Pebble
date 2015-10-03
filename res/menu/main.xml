@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hmkcode="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/about"
+        android:orderInCategory="99"
+        android:title="about"
+        hmkcode:showAsAction="always"/>
+
+    <item
+        android:id="@+id/ssss"
+        android:icon="@drawable/shareic"
+        android:orderInCategory="99"
+        android:title="Share App With Friends"
+        hmkcode:showAsAction="always"/>
+
+</menu>
