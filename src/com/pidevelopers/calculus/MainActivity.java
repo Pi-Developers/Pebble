@@ -126,7 +126,12 @@ public class MainActivity extends ActionBarActivity {
 	
 		
 	}
-	
+	@Override
+	public void onWindowFocusChanged(boolean hasFocus) 	{ 
+		super.onWindowFocusChanged(hasFocus);
+		LolTint.on(true,false,true,Color.COLOR_DEEP_ORANGE,this);
+		
+	}
 	
 	
 }
