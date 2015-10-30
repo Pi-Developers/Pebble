@@ -28,23 +28,15 @@ By using Pebble you'll see how calculus is good and you can perform some calculu
 
 **Features :**
 
-✓ Material Design
-
-✓ Introduction to calculus
-
-✓ Introduction to integration
-
-✓ Introduction to differentiation
-
-✓ Lightweight and almost no RAM consumption
-
-✓ Open-sourced Application
-
-✓ Solve Linear Integral and Differential equations
-
-✓ Derive : Arithmetic , Natural logarithm, Euler Number, and Trigonometric functions
-
-✓ Integrate : Arithmetic , Natural logarithm, Euler Number, Trigonometric functions and Power Functions 
+- Material Design.
+- Introduction to calculus.
+- Introduction to integration.
+- Introduction to differentiation.
+- Lightweight and almost no RAM consumption.
+- Open-sourced Application.
+- Solve Linear Integral and Differential equations.
+- Derive : Arithmetic , Natural logarithm, Euler Number, and Trigonometric functions.
+- Integrate : Arithmetic , Natural logarithm, Euler Number, Trigonometric functions and Power Functions.
 
 
 
