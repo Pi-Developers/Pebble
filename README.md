@@ -25,6 +25,7 @@ By using Pebble you'll see how calculus is good and you can perform some calculu
 - Pebble is simple and will make you love calculus.
 
 
+
 **Features :**
 
 ✓ Material Design
@@ -44,6 +45,10 @@ By using Pebble you'll see how calculus is good and you can perform some calculu
 ✓ Derive : Arithmetic , Natural logarithm, Euler Number, and Trigonometric functions
 
 ✓ Integrate : Arithmetic , Natural logarithm, Euler Number, Trigonometric functions and Power Functions 
+
+
+
+**Downloads :**
 
 
 Get it on play Store : https://play.google.com/store/apps/details?id=com.pidevelopers.calculus
