@@ -20,7 +20,7 @@ By using Pebble you'll see how calculus is good and you can perform some calculu
 **About Pebble :**
 
 - Pebble is The only Android App that does real calculus.
-- Pebble has info section that will at least introduce the people who know nothing about calculus to this branch of science.
+- Pebble has info section that will at least introduce the people who know nothing about calculus to this science.
 - Pebble is designed following the latest google material design guidelines.
 - Pebble is simple and will make you love calculus.
 
@@ -46,3 +46,4 @@ By using Pebble you'll see how calculus is good and you can perform some calculu
 ✓ Integrate : Arithmetic , Natural logarithm, Euler Number, Trigonometric functions and Power Functions 
 
 
+Get it on play Store : https://play.google.com/store/apps/details?id=com.pidevelopers.calculus
